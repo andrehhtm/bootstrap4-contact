@@ -4,7 +4,6 @@ window.$ = $ = jQuery;
 Tether = require("tether");
 require("bootstrap");
 
-console.log("webpack tá rolando")
-console.log($);
-
-$
+$(function() {
+    $('[data-toggle="tooltip"').tooltip();
+}) 
